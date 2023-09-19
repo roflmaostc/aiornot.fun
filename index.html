@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Question Quiz</title>
+    <title>AI or not AI?</title>
     <!-- Include Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,7 +56,18 @@
                 question: "UNET: One-Dimensional Unsteady Flow Through a Full Network of Open Channels",
                 answer: false,
                 explanation: "UNET is a numerical model that simulates one dimensional unsteady flow through a full network of open channels. This is more about <a href=\"https://apps.dtic.mil/sti/citations/ADA315684\">hydrodynamics</a>."
-            }
+            },
+            {
+                question: "Fixing a Broken ELBO",
+                answer: true,
+                explanation: "It's about approximately fitting deep directed latent-variable models by maximization of the evidence lower bound (ELBO). <a href=\"https://arxiv.org/abs/1711.00464\">See this arXiv.</a>"
+            },
+            {
+                question: "An embarrassingly simple approach to zero-shot learning",
+                answer: true,
+                explanation: "Zero-shot learning consists in learning how to recognize new concepts by just having a description of them. <a href=\"https://proceedings.mlr.press/v37/romera-paredes15.html\">In this paper we describe a zero-shot learning approach that can be implemented in just one line of code.</a>"
+            },
+
         ];
 
         var randInt = Math.floor(Math.random() * questions.length) 
