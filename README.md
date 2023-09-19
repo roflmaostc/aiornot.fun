@@ -1,8 +1,7 @@
 # [aiornot.fun](http://aiornot.fun)
 
-This a simple quiz to test your skills if you really now current trends in machine learning.
-
-This is hacky af and made heavy use of [Chat GPT](https://chat.openai.com). 
+This is a quiz to test your skills if you really know current trends in machine learning.
+It's hacky af and made heavy use of [Chat GPT](https://chat.openai.com). 
 
 ## Contribute
 Simply prepare a PR to add more funny paper titles. 
