@@ -6,6 +6,7 @@
     <title>Random Question Quiz</title>
     <!-- Include Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="container mt-5">
@@ -13,12 +14,12 @@
             <div class="col-md-6">
                 <div class="card text-center">
                     <div class="card-header">
-                        Random Question Quiz
+                        AI or not AI? 
                     </div>
                     <div class="card-body">
                         <h5 class="card-title" id="question">Click "New Question" to start</h5>
-                        <button class="btn" id="yesButton">Yes</button>
-                        <button class="btn" id="noButton">No</button>
+                        <button class="btn btn-secondary" id="yesButton">Yes</button>
+                        <button class="btn btn-secondary" id="noButton">No</button>
                         <p class="mt-3" id="explanation"></p>
                     </div>
                     <div class="card-footer">
@@ -37,20 +38,10 @@
     <script>
                const questions = [
             {
-                question: "Is the sky blue?",
-                answer: true,
-                explanation: "Yes, the sky is blue during the day."
-            },
-            {
-                question: "Is water wet?",
+                question: "Transforming engineering learning via technogogy",
                 answer: false,
-                explanation: "No, water is not wet."
+                explanation: "Not at all. This paper is about pedagogy and learning styles. See <a href=\"https://d1wqtxts1xzle7.cloudfront.net/874934/Rozhan-Heraklion-_20088-libre.pdf?1390587708=&response-content-disposition=inline%3B+filename%3DTransforming_Engineering_Learning_via_Te.pdf&Expires=1695155592&Signature=ffm4YdqdUiLpjTjx1sHowG2zRkO0aNdCtZ66JDkbKl53a01EJHTtEkJLcJ2DY0E~G5eVsZOcHGLJkKbTUlPqwiTDeCD-Lwd9dAVnJT1JfuXOjV4MN48UbSYuMuoBlrTVKRbl8v6NqvCeVsdCYOpIeWz0JtMsOeAgf57q4KiPI4zODXywixZPjSwJwHUlEzxnFfRmIs5lHLs5yDgeq8UGP90A11qnfVwm1629aOYu7y-fDmNAGjLNsGTbx0Rx5iDMpIDFgQ~i8pXSNvuoiJq6uoItKYod3sTn8XMzocW15BaIPziPATI6nQLLjXMX19W02TtoISU5AWdpCTTCsI2Q1A__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA\">this PDF</a>"
             },
-            {
-                question: "Is the Earth flat?",
-                answer: false,
-                explanation: "No, the Earth is not flat. It's an oblate spheroid."
-            }
         ];
 
         var randInt = Math.floor(Math.random() * questions.length) 
@@ -89,7 +80,7 @@
                 }
 
             }
-            document.getElementById("explanation").textContent = randomQuestion.explanation;
+            document.getElementById("explanation").innerHTML = randomQuestion.explanation;
         }
 
         document.getElementById("newQuestion").addEventListener("click", displayQuestion);
@@ -99,6 +90,9 @@
         // Display a random question when the page loads
         displayQuestion();
     </script>
+    <center>
+    <a href="https://github.com/roflmaostc/ai-or-not-ai.fun"><i class="fa fa-github clickable" style="font-size:48px;color:black"></i></a>
+    </center>
 </body>
 </html>
 
