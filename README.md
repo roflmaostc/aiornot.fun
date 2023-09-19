@@ -1,4 +1,4 @@
-# [aiornot.fun](aiornot.fun)
+# [aiornot.fun](http://aiornot.fun)
 
 This a simple quiz to test your skills if you really now current trends in machine learning.
 
