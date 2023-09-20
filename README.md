@@ -1,4 +1,4 @@
-# Welcome to [aiornot.fun](https://aiornot.fun) - the most lit quiz on the web! 🚀🔥
+# [aiornot.fun](https://aiornot.fun) - the most lit quiz on the web! 🚀🔥
 Ever wondered if that dense, jargon-filled 🤯📝 paper you stumbled upon is about AI 🤖 or just some other random scientific 🧪🔬👨‍🔬 rabbit hole? Well, wonder no more! We've created a quirky quiz that separates the AI from the "AIn't"! 🎉🔍🚫
 
 Our secret sauce? We've gone full "hacky af" 💻🧙‍♂️ and leaned heavily on [Chat GPT](https://chat.openai.com)🤖🗨️ to whip up the source code for this masterpiece.
