@@ -1,4 +1,4 @@
-# [aiornot.fun](http://aiornot.fun)
+# [aiornot.fun](https://aiornot.fun)
 
 This is a quiz to test your skills if you really know current trends in machine learning.
 It's hacky af and made heavy use of [Chat GPT](https://chat.openai.com). 
