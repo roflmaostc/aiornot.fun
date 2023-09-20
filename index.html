@@ -14,7 +14,7 @@
             <div class="col-md-6">
                 <div class="card text-center">
                     <div class="card-header">
-                        Can you guess which is an AI paper title and which not? 
+                        Can you guess which is a real published scientific paper title about AI and which not? 
                     </div>
                     <div class="card-body">
                         <h5 class="card-title" id="question">Click "New Question" to start</h5>
@@ -127,11 +127,11 @@
         var randInt = 0
 
         function getRandomQuestion() {
-            randInt = (randInt + 1) % questions.length
             return questions[randInt];
         }
 
         function displayQuestion() {
+            randInt = (randInt + 1) % questions.length
             const randomQuestion = getRandomQuestion();
             document.getElementById("question").textContent = "\"" + randomQuestion.question + "\"";
             document.getElementById("explanation").textContent = "";
